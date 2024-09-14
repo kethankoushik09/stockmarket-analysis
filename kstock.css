@@ -1,0 +1,130 @@
+.complete-sec{
+    display: flex;
+}
+.main-head{
+    color: white;
+    text-align: center;
+}
+.description-sec{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    padding: 10px;
+
+}
+.bdy{
+    background-color: rgb(20, 20, 41);
+}
+.chart-sec{
+    width: 100%;
+    height: 85vh;
+    border-radius: 10px;
+}
+.detail-sec{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+.list-sec{
+    width: 35%;
+    height: 100vh;
+    margin-left: auto;
+} 
+
+.item {
+    display: flex;
+    justify-content:space-between;
+    height: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+.item button{
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: rgb(51, 51, 123);
+    border-radius: 2px;
+    width: 70px;
+}
+.item p{
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 18px;
+    
+}
+.bookValue{
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 3px;
+}
+.profit{
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(127, 255, 0);
+    margin-top: 3px;
+
+}
+.vg {
+    background-color: rgb(61, 61, 148);
+    border-radius: 10px;
+    height: 500px;
+
+}
+.chart-container {
+    position: relative;
+}
+.vertical-line {
+    position: absolute;
+    border-left: 3px solid red;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+.cnavs{
+    width: 100%;
+    height: 100%;
+}
+.btn-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.btn-area button{
+    color: white;
+    background-color: rgb(10, 10, 78);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.nam{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pro{
+    color: rgb(93, 246, 93);
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.book{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.heads-sec{
+    display: flex;
+
+}
+.heads-sec div{
+    margin-left: 20px;
+}
+.para{
+    color: white;
+    font-size: 12px;
+}
